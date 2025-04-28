@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Claro! Aqui está um exemplo de README para o front-end do seu projeto:
 
-## Getting Started
+---
 
-First, run the development server:
+# Front-end - Event Management System
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este repositório contém o front-end do sistema de gerenciamento de eventos, desenvolvido com **Next.js**, **React**, **ShadcnUI**, e **TailwindCSS**. Ele se conecta ao back-end para permitir a gestão de usuários e eventos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** - Framework React para renderização no lado do servidor e construção de sites modernos.
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **ShadcnUI** - Biblioteca de componentes UI com foco em acessibilidade e usabilidade.
+- **TailwindCSS** - Framework CSS utilitário para construção rápida de interfaces responsivas e personalizadas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades já prontas
 
-## Learn More
+- **Login/Sign-in de usuários**: Permite que os usuários façam login ou criem uma conta.
+- **Integração com o back-end**: O front-end está pronto para se conectar com o back-end para autenticação e gestão de eventos.
 
-To learn more about Next.js, take a look at the following resources:
+## Requisitos para rodar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Backend**: O back-end precisa estar rodando para que as funcionalidades de login e gestão de eventos funcionem corretamente. 
+- **Node.js e NPM**: Certifique-se de ter o [Node.js](https://nodejs.org/) e o **NPM** instalados em sua máquina.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Como rodar o projeto
 
-## Deploy on Vercel
+1. Clone este repositório:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone <URL-do-repositório>
+   cd <diretório-do-repositório>
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+3. Rode o projeto em modo de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Abra o navegador e acesse a URL do front-end (geralmente `http://localhost:3000`).
+
+## Tarefas do Front-end
+
+- **Criar telas de cadastro de evento**: Permite aos usuários criar novos eventos.
+- **Visualizar eventos**: Exibe todos os eventos disponíveis.
+- **Filtrar eventos**: Usuários podem filtrar eventos com base em parâmetros como data ou categoria.
+- **Inscrever-se em um evento**: Usuários podem se inscrever para eventos, garantindo sua participação.
+
+## Estrutura do projeto
+
+- **pages**: Contém as rotas da aplicação.
+  - `index.tsx`: Página inicial.
+  - `login.tsx`: Tela de login/sign-in.
+  - `events.tsx`: Tela para visualizar e filtrar eventos.
+  - `create-event.tsx`: Tela para criar um novo evento.
+  
+- **components**: Contém os componentes reutilizáveis da interface.
+  - `Card`: Exibe informações sobre eventos.
+  - `Button`: Botões personalizados.
+  - `Input`: Campo de entrada para o formulário de login e cadastro.
+  
+- **lib**: Utilitários e funções auxiliares, como a função para conectar à API do back-end.
+
+## Contribuindo
+
+Se você gostaria de contribuir para o desenvolvimento deste projeto, por favor, siga os seguintes passos:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para suas mudanças (`git checkout -b minha-branch`).
+3. Comite suas mudanças (`git commit -am 'Adicionando nova funcionalidade'`).
+4. Envie para o repositório (`git push origin minha-branch`).
+5. Abra um pull request.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+---
+
+Este README fornece uma visão geral concisa do seu projeto, detalha as funcionalidades já implementadas e como rodar o projeto no ambiente local.
