@@ -1,7 +1,3 @@
-Claro! Aqui está um exemplo de README para o front-end do seu projeto:
-
----
-
 # Front-end - Event Management System
 
 Este repositório contém o front-end do sistema de gerenciamento de eventos, desenvolvido com **Next.js**, **React**, **ShadcnUI**, e **TailwindCSS**. Ele se conecta ao back-end para permitir a gestão de usuários e eventos.
@@ -81,7 +77,3 @@ Se você gostaria de contribuir para o desenvolvimento deste projeto, por favor,
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
-
----
-
-Este README fornece uma visão geral concisa do seu projeto, detalha as funcionalidades já implementadas e como rodar o projeto no ambiente local.
